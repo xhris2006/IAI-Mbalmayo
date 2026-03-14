@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Admissions IAI Mbalmayo : criteres, calendrier et etapes de candidature.">
+  <title>Admissions | IAI Mbalmayo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- NAVBAR -->
+  <nav class="bg-white shadow-md fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <div class="w-12 h-12 bg-[#003087] rounded-full flex items-center justify-center text-white font-bold text-2xl">IAI</div>
+        <div>
+          <h1 class="text-2xl font-bold text-[#003087]">IAI Mbalmayo</h1>
+          <p class="text-xs text-gray-500 -mt-1">Centre d'Excellence Technologique</p>
+        </div>
+      </div>
+      <div class="hidden md:flex gap-8 text-sm font-medium">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="about.html" class="nav-link">A propos</a>
+        <a href="formations.html" class="nav-link">Formations</a>
+        <a href="admissions.html" class="nav-link text-[#003087]">Admissions</a>
+        <a href="postuler.html" class="nav-link">Postuler</a>
+        <a href="actualites.html" class="nav-link">Actualites</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+      <a href="postuler.html" class="hidden md:flex bg-[#006400] hover:bg-green-700 text-white px-6 py-3 rounded-full font-semibold items-center gap-2">
+        <i class="fas fa-paper-plane"></i> Postuler maintenant
+      </a>
+      <button id="mobile-menu-btn" class="md:hidden text-2xl" aria-expanded="false" aria-controls="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-gray-100">
+      <div class="px-6 py-4 space-y-3 text-sm font-medium">
+        <a href="index.html" class="block">Accueil</a>
+        <a href="about.html" class="block">A propos</a>
+        <a href="formations.html" class="block">Formations</a>
+        <a href="admissions.html" class="block text-[#003087]">Admissions</a>
+        <a href="postuler.html" class="block">Postuler</a>
+        <a href="actualites.html" class="block">Actualites</a>
+        <a href="contact.html" class="block">Contact</a>
+        <a href="postuler.html" class="inline-flex items-center justify-center bg-[#006400] text-white px-5 py-3 rounded-full font-semibold">Postuler maintenant</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="page-hero text-white pt-20 md:pt-28 pb-12 md:pb-20">
+    <div class="max-w-7xl mx-auto px-4 md:px-6">
+      <div class="badge mb-4 md:mb-6"><i class="fas fa-clipboard-check"></i> Admissions</div>
+      <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4">Integrez une formation d'excellence, en toute transparence</h2>
+      <p class="text-base md:text-lg lg:text-xl max-w-3xl">Consultez les criteres, les pieces a fournir et le calendrier des admissions pour le centre IAI Mbalmayo.</p>
+    </div>
+  </header>
+
+  <!-- ETAPES -->
+  <section class="py-12 md:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 md:px-6">
+      <h3 class="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12 section-title">Etapes d'admission</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+        <div class="bg-gray-50 rounded-3xl p-6 md:p-8">
+          <div class="text-2xl md:text-3xl text-[#003087] mb-3 md:mb-4">01</div>
+          <h4 class="font-semibold text-lg md:text-xl mb-2 md:mb-3">Pre-inscription en ligne</h4>
+          <p class="text-gray-600 text-sm md:text-base">Remplissez le formulaire avec vos informations et la formation choisie.</p>
+        </div>
+        <div class="bg-gray-50 rounded-3xl p-6 md:p-8">
+          <div class="text-2xl md:text-3xl text-[#003087] mb-3 md:mb-4">02</div>
+          <h4 class="font-semibold text-lg md:text-xl mb-2 md:mb-3">Depot du dossier</h4>
+          <p class="text-gray-600 text-sm md:text-base">Joignez vos pieces academiques et administratives au secretariat.</p>
+        </div>
+        <div class="bg-gray-50 rounded-3xl p-6 md:p-8">
+          <div class="text-2xl md:text-3xl text-[#003087] mb-3 md:mb-4">03</div>
+          <h4 class="font-semibold text-lg md:text-xl mb-2 md:mb-3">Entretien et decision</h4>
+          <p class="text-gray-600 text-sm md:text-base">Rencontre avec le jury et notification de la decision.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONDITIONS -->
+  <section class="py-12 md:py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
+      <div>
+        <h3 class="text-2xl md:text-3xl font-bold text-[#003087] mb-4 md:mb-6 section-title">Conditions d'admission</h3>
+        <ul class="space-y-2 md:space-y-3 text-gray-600 text-sm md:text-base">
+          <li>� Bac scientifique ou technique pour les cycles licence.</li>
+          <li>� Bac +2 ou equivalence pour l'entree en cycle ingenieur.</li>
+          <li>� Dossier complet avec releves et lettre de motivation.</li>
+          <li>� Engagement a suivre les cours en presentiel a Mbalmayo.</li>
+        </ul>
+      </div>
+      <div class="bg-white rounded-3xl p-6 md:p-8 shadow-sm">
+        <h4 class="text-lg md:text-xl font-semibold mb-3 md:mb-4">Calendrier 2026</h4>
+        <div class="space-y-3 md:space-y-4 text-xs md:text-sm text-gray-600">
+          <div class="flex items-center justify-between">
+            <span>Ouverture des candidatures</span>
+            <span class="font-semibold">15 avril 2026</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <span>Date limite de depot</span>
+            <span class="font-semibold">30 juin 2026</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <span>Entretiens</span>
+            <span class="font-semibold">08 - 19 juillet 2026</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <span>Rentr�e academique</span>
+            <span class="font-semibold">15 septembre 2026</span>
+          </div>
+        </div>
+        <a href="postuler.html" class="mt-4 md:mt-6 inline-flex items-center gap-2 text-[#003087] font-semibold text-sm md:text-base">Commencer votre candidature <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="py-12 md:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 md:px-6">
+      <h3 class="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12 section-title">Questions frequentes</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+        <div class="bg-gray-50 rounded-2xl p-4 md:p-6">
+          <h4 class="font-semibold mb-2 text-sm md:text-base">Y a-t-il des bourses ?</h4>
+          <p class="text-xs md:text-sm text-gray-600">Oui, des bourses sont proposees selon le merite et la situation sociale.</p>
+        </div>
+        <div class="bg-gray-50 rounded-2xl p-4 md:p-6">
+          <h4 class="font-semibold mb-2 text-sm md:text-base">Quels sont les frais de scolarite ?</h4>
+          <p class="text-xs md:text-sm text-gray-600">Les frais varient selon le cycle. Contactez le service admissions pour le detail.</p>
+        </div>
+        <div class="bg-gray-50 rounded-2xl p-4 md:p-6">
+          <h4 class="font-semibold mb-2 text-sm md:text-base">Puis-je candidater en ligne ?</h4>
+          <p class="text-xs md:text-sm text-gray-600">Oui, la pre-inscription se fait en ligne avant le depot physique du dossier.</p>
+        </div>
+        <div class="bg-gray-50 rounded-2xl p-4 md:p-6">
+          <h4 class="font-semibold mb-2 text-sm md:text-base">Proposez-vous des formations du soir ?</h4>
+          <p class="text-xs md:text-sm text-gray-600">Des modules executive sont proposes pour les professionnels.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400 py-8 md:py-16">
+    <div class="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
+      <div>
+        <div class="flex items-center gap-3 text-white mb-4 md:mb-6">
+          <div class="w-8 md:w-10 h-8 md:h-10 bg-white text-[#003087] rounded-full flex items-center justify-center font-bold text-sm md:text-base">IAI</div>
+          <span class="text-lg md:text-2xl font-bold">Mbalmayo</span>
+        </div>
+        <p class="text-xs md:text-sm">Centre regional de l'Institut Africain d'Informatique<br>Formations d'excellence depuis 2021</p>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Liens rapides</h4>
+        <ul class="space-y-2 text-xs md:text-sm">
+          <li><a href="formations.html" class="hover:text-white">Formations</a></li>
+          <li><a href="admissions.html" class="hover:text-white">Admissions</a></li>
+          <li><a href="postuler.html" class="hover:text-white">Postuler</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Contact</h4>
+        <p class="text-xs md:text-sm">Mbalmayo, Region du Centre<br>Cameroun</p>
+        <p class="text-xs md:text-sm mt-3 md:mt-4">
+          WhatsApp : <a href="https://wa.me/237694600007" class="text-[#00aaff]">+237 694 600 007</a><br>
+          Email : contact@iaicameroun.com
+        </p>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Suivez-nous</h4>
+        <div class="flex gap-4 md:gap-6 text-lg md:text-2xl">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-xs mt-12 md:mt-16 border-t border-gray-800 pt-6 md:pt-8">
+      � 2026 Institut Africain d'Informatique - Centre de Mbalmayo. Tous droits reserves.
+    </div>
+  </footer>
+
+  <a href="https://wa.me/237694600007" target="_blank" class="fixed bottom-8 right-8 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-all z-50 text-3xl">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

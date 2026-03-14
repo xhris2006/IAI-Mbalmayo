@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Actualites et evenements de l'IAI Mbalmayo.">
+  <title>Actualites | IAI Mbalmayo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- NAVBAR -->
+  <nav class="bg-white shadow-md fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <div class="w-12 h-12 bg-[#003087] rounded-full flex items-center justify-center text-white font-bold text-2xl">IAI</div>
+        <div>
+          <h1 class="text-2xl font-bold text-[#003087]">IAI Mbalmayo</h1>
+          <p class="text-xs text-gray-500 -mt-1">Centre d'Excellence Technologique</p>
+        </div>
+      </div>
+      <div class="hidden md:flex gap-8 text-sm font-medium">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="about.html" class="nav-link">A propos</a>
+        <a href="formations.html" class="nav-link">Formations</a>
+        <a href="admissions.html" class="nav-link">Admissions</a>
+        <a href="postuler.html" class="nav-link">Postuler</a>
+        <a href="actualites.html" class="nav-link text-[#003087]">Actualites</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+      <a href="postuler.html" class="hidden md:flex bg-[#006400] hover:bg-green-700 text-white px-6 py-3 rounded-full font-semibold items-center gap-2">
+        <i class="fas fa-paper-plane"></i> Postuler maintenant
+      </a>
+      <button id="mobile-menu-btn" class="md:hidden text-2xl" aria-expanded="false" aria-controls="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-gray-100">
+      <div class="px-6 py-4 space-y-3 text-sm font-medium">
+        <a href="index.html" class="block">Accueil</a>
+        <a href="about.html" class="block">A propos</a>
+        <a href="formations.html" class="block">Formations</a>
+        <a href="admissions.html" class="block">Admissions</a>
+        <a href="postuler.html" class="block">Postuler</a>
+        <a href="actualites.html" class="block text-[#003087]">Actualites</a>
+        <a href="contact.html" class="block">Contact</a>
+        <a href="postuler.html" class="inline-flex items-center justify-center bg-[#006400] text-white px-5 py-3 rounded-full font-semibold">Postuler maintenant</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="page-hero text-white pt-20 md:pt-28 pb-12 md:pb-20">
+    <div class="max-w-7xl mx-auto px-4 md:px-6">
+      <div class="badge mb-4 md:mb-6"><i class="fas fa-bullhorn"></i> Actualites</div>
+      <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4">Vie du campus, concours et evenements</h2>
+      <p class="text-base md:text-lg lg:text-xl max-w-3xl">Suivez les temps forts de l'IAI Mbalmayo : seminaires, competitions technologiques, projets et partenariats.</p>
+    </div>
+  </header>
+
+  <!-- ACTUALITES -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-3 gap-8">
+      <article class="bg-gray-50 rounded-3xl overflow-hidden card-hover">
+        <img src="images/iaiconcours.jpg" alt="Concours" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <p class="text-xs uppercase text-[#003087] font-semibold">Concours 2026</p>
+          <h3 class="text-xl font-semibold mt-2">Ouverture des inscriptions au concours national</h3>
+          <p class="text-sm text-gray-600 mt-3">L'IAI Mbalmayo lance les inscriptions pour la promotion 2026 avec un processus 100% accompagne.</p>
+        </div>
+      </article>
+      <article class="bg-gray-50 rounded-3xl overflow-hidden card-hover">
+        <img src="images/iaiconcours2.jpg" alt="IA" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <p class="text-xs uppercase text-[#003087] font-semibold">IA & Data</p>
+          <h3 class="text-xl font-semibold mt-2">Bootcamp IA generative pour les etudiants</h3>
+          <p class="text-sm text-gray-600 mt-3">Une semaine intensive pour creer des solutions IA au service de l'agriculture et de la sante.</p>
+        </div>
+      </article>
+      <article class="bg-gray-50 rounded-3xl overflow-hidden card-hover">
+        <img src="images/iaistart.jpg" alt="Cyber" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <p class="text-xs uppercase text-[#003087] font-semibold">Cybersecurite</p>
+          <h3 class="text-xl font-semibold mt-2">Creation du premier mini-SOC etudiant</h3>
+          <p class="text-sm text-gray-600 mt-3">Nos etudiants participent a la surveillance proactive d'infrastructures locales.</p>
+        </div>
+      </article>
+      <article class="bg-gray-50 rounded-3xl overflow-hidden card-hover">
+        <img src="images/iaiprof.jpg" alt="Partenariat" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <p class="text-xs uppercase text-[#003087] font-semibold">Partenariats</p>
+          <h3 class="text-xl font-semibold mt-2">Signature d'accords avec des entreprises tech</h3>
+          <p class="text-sm text-gray-600 mt-3">Des stages garantis et un programme de mentorat pour les meilleurs talents.</p>
+        </div>
+      </article>
+      <article class="bg-gray-50 rounded-3xl overflow-hidden card-hover">
+        <img src="images/iaiproject.jpeg" alt="Conference" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <p class="text-xs uppercase text-[#003087] font-semibold">Conferences</p>
+          <h3 class="text-xl font-semibold mt-2">Rencontres panafricaines du numerique</h3>
+          <p class="text-sm text-gray-600 mt-3">Des experts internationaux partagent leur vision de l'innovation sur le continent.</p>
+        </div>
+      </article>
+      <article class="bg-gray-50 rounded-3xl overflow-hidden card-hover">
+        <img src="images/iaischool.jpeg" alt="Entrepreneuriat" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <p class="text-xs uppercase text-[#003087] font-semibold">Entrepreneuriat</p>
+          <h3 class="text-xl font-semibold mt-2">Demo day des startups etudiantes</h3>
+          <p class="text-sm text-gray-600 mt-3">Presentation des projets les plus prometteurs developpes par nos incubes.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400 py-8 md:py-16">
+    <div class="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
+      <div>
+        <div class="flex items-center gap-3 text-white mb-4 md:mb-6">
+          <div class="w-8 md:w-10 h-8 md:h-10 bg-white text-[#003087] rounded-full flex items-center justify-center font-bold text-sm md:text-base">IAI</div>
+          <span class="text-lg md:text-2xl font-bold">Mbalmayo</span>
+        </div>
+        <p class="text-xs md:text-sm">Centre regional de l'Institut Africain d'Informatique<br>Formations d'excellence depuis 2021</p>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Liens rapides</h4>
+        <ul class="space-y-2 text-xs md:text-sm">
+          <li><a href="formations.html" class="hover:text-white">Formations</a></li>
+          <li><a href="admissions.html" class="hover:text-white">Admissions</a></li>
+          <li><a href="postuler.html" class="hover:text-white">Postuler</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Contact</h4>
+        <p class="text-xs md:text-sm">Mbalmayo, Region du Centre<br>Cameroun</p>
+        <p class="text-xs md:text-sm mt-3 md:mt-4">
+          WhatsApp : <a href="https://wa.me/237694600007" class="text-[#00aaff]">+237 694 600 007</a><br>
+          Email : contact@iaicameroun.com
+        </p>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Suivez-nous</h4>
+        <div class="flex gap-4 md:gap-6 text-lg md:text-2xl">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-xs mt-12 md:mt-16 border-t border-gray-800 pt-6 md:pt-8">
+      � 2026 Institut Africain d'Informatique - Centre de Mbalmayo. Tous droits reserves.
+    </div>
+  </footer>
+
+  <a href="https://wa.me/237694600007" target="_blank" class="fixed bottom-8 right-8 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-all z-50 text-3xl">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

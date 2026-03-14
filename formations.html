@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formations IAI Mbalmayo : genie logiciel, reseaux, IA, cybersecurite, data science.">
+  <title>Formations | IAI Mbalmayo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- NAVBAR -->
+  <nav class="bg-white shadow-md fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-4 md:px-6 py-3 md:py-4 flex justify-between items-center">
+      <div class="flex items-center gap-2 md:gap-3">
+        <div class="w-10 md:w-12 h-10 md:h-12 bg-[#003087] rounded-full flex items-center justify-center text-white font-bold text-lg md:text-2xl">IAI</div>
+        <div>
+          <h1 class="text-lg md:text-2xl font-bold text-[#003087]">IAI Mbalmayo</h1>
+          <p class="text-xs text-gray-500 -mt-1">Centre d'Excellence Technologique</p>
+        </div>
+      </div>
+      <div class="hidden md:flex gap-6 md:gap-8 text-sm font-medium">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="about.html" class="nav-link">A propos</a>
+        <a href="formations.html" class="nav-link text-[#003087]">Formations</a>
+        <a href="admissions.html" class="nav-link">Admissions</a>
+        <a href="postuler.html" class="nav-link">Postuler</a>
+        <a href="actualites.html" class="nav-link">Actualites</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+      <a href="postuler.html" class="hidden md:flex bg-[#006400] hover:bg-green-700 text-white px-4 md:px-6 py-2 md:py-3 rounded-full font-semibold items-center gap-2 text-sm md:text-base">
+        <i class="fas fa-paper-plane"></i> Postuler maintenant
+      </a>
+      <button id="mobile-menu-btn" class="md:hidden text-xl md:text-2xl" aria-expanded="false" aria-controls="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-gray-100">
+      <div class="px-4 md:px-6 py-3 md:py-4 space-y-3 text-sm font-medium">
+        <a href="index.html" class="block">Accueil</a>
+        <a href="about.html" class="block">A propos</a>
+        <a href="formations.html" class="block text-[#003087]">Formations</a>
+        <a href="admissions.html" class="block">Admissions</a>
+        <a href="postuler.html" class="block">Postuler</a>
+        <a href="actualites.html" class="block">Actualites</a>
+        <a href="contact.html" class="block">Contact</a>
+        <a href="postuler.html" class="inline-flex items-center justify-center bg-[#006400] text-white px-4 md:px-5 py-2 md:py-3 rounded-full font-semibold text-sm md:text-base">Postuler maintenant</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="page-hero text-white pt-20 md:pt-28 pb-12 md:pb-20">
+    <div class="max-w-7xl mx-auto px-4 md:px-6">
+      <div class="badge mb-4 md:mb-6"><i class="fas fa-layer-group"></i> Programmes academiques</div>
+      <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4">Des parcours specialises pour les metiers du numerique</h2>
+      <p class="text-base md:text-lg lg:text-xl max-w-3xl">Chaque formation combine rigueur scientifique, pratique intensive et accompagnement professionnel pour repondre aux besoins des entreprises et des institutions publiques.</p>
+    </div>
+  </header>
+
+  <!-- LISTE FORMATIONS -->
+  <section class="py-12 md:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8">
+      <div class="bg-gray-50 rounded-3xl p-6 md:p-8 card-hover">
+        <div class="text-2xl md:text-3xl text-[#003087] mb-3 md:mb-4"><i class="fas fa-code"></i></div>
+        <h3 class="text-xl md:text-2xl font-semibold mb-2 md:mb-3">Genie Logiciel</h3>
+        <p class="text-gray-600 text-sm md:text-base">Architecture logicielle, DevOps, qualite, cloud, methodes agiles.</p>
+        <ul class="mt-4 md:mt-6 text-xs md:text-sm text-gray-600 space-y-1 md:space-y-2">
+          <li>� Applications web & mobiles</li>
+          <li>� DevSecOps & CI/CD</li>
+          <li>� Tests automatises</li>
+        </ul>
+      </div>
+      <div class="bg-gray-50 rounded-3xl p-6 md:p-8 card-hover">
+        <div class="text-2xl md:text-3xl text-orange-500 mb-3 md:mb-4"><i class="fas fa-network-wired"></i></div>
+        <h3 class="text-xl md:text-2xl font-semibold mb-2 md:mb-3">Reseaux & Telecom</h3>
+        <p class="text-gray-600 text-sm md:text-base">Infrastructure reseau, 5G, cloud hybride, services critiques.</p>
+        <ul class="mt-4 md:mt-6 text-xs md:text-sm text-gray-600 space-y-1 md:space-y-2">
+          <li>� Cisco & Huawei labs</li>
+          <li>� Supervision & NOC</li>
+          <li>� Architectures securisees</li>
+        </ul>
+      </div>
+      <div class="bg-gray-50 rounded-3xl p-6 md:p-8 card-hover">
+        <div class="text-2xl md:text-3xl text-[#00aaff] mb-3 md:mb-4"><i class="fas fa-brain"></i></div>
+        <h3 class="text-xl md:text-2xl font-semibold mb-2 md:mb-3">Intelligence Artificielle</h3>
+        <p class="text-gray-600 text-sm md:text-base">Machine learning, NLP, computer vision, IA generative.</p>
+        <ul class="mt-4 md:mt-6 text-xs md:text-sm text-gray-600 space-y-1 md:space-y-2">
+          <li>� Projets data et IA</li>
+          <li>� MLOps & cloud IA</li>
+          <li>� Ethique et regulation</li>
+        </ul>
+      </div>
+      <div class="bg-gray-50 rounded-3xl p-6 md:p-8 card-hover">
+        <div class="text-2xl md:text-3xl text-[#006400] mb-3 md:mb-4"><i class="fas fa-shield-alt"></i></div>
+        <h3 class="text-xl md:text-2xl font-semibold mb-2 md:mb-3">Cybersecurite</h3>
+        <p class="text-gray-600 text-sm md:text-base">Audit, SOC, forensique, gestion de risques, SOC africain.</p>
+        <ul class="mt-4 md:mt-6 text-xs md:text-sm text-gray-600 space-y-1 md:space-y-2">
+          <li>� Red Team / Blue Team</li>
+          <li>� Conformite & IAM</li>
+          <li>� Simulations d'incidents</li>
+        </ul>
+      </div>
+      <div class="bg-gray-50 rounded-3xl p-6 md:p-8 card-hover">
+        <div class="text-2xl md:text-3xl text-indigo-500 mb-3 md:mb-4"><i class="fas fa-database"></i></div>
+        <h3 class="text-xl md:text-2xl font-semibold mb-2 md:mb-3">Data Science</h3>
+        <p class="text-gray-600 text-sm md:text-base">Analyse avancee, BI, gouvernance des donnees, visualisation.</p>
+        <ul class="mt-4 md:mt-6 text-xs md:text-sm text-gray-600 space-y-1 md:space-y-2">
+          <li>� Python & R</li>
+          <li>� Tableau & Power BI</li>
+          <li>� Data engineering</li>
+        </ul>
+      </div>
+      <div class="bg-gray-50 rounded-3xl p-6 md:p-8 card-hover">
+        <div class="text-2xl md:text-3xl text-teal-500 mb-3 md:mb-4"><i class="fas fa-mobile-alt"></i></div>
+        <h3 class="text-xl md:text-2xl font-semibold mb-2 md:mb-3">Developpement Mobile</h3>
+        <p class="text-gray-600 text-sm md:text-base">Applications multiplateformes, UX mobile, APIs et monetisation.</p>
+        <ul class="mt-4 md:mt-6 text-xs md:text-sm text-gray-600 space-y-1 md:space-y-2">
+          <li>� Flutter & React Native</li>
+          <li>� Design system mobile</li>
+          <li>� Publication stores</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMAT -->
+  <section class="py-12 md:py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
+      <div>
+        <h3 class="text-2xl md:text-3xl font-bold text-[#003087] mb-4 md:mb-6 section-title">Organisation pedagogique</h3>
+        <p class="text-gray-600 leading-relaxed text-sm md:text-base">Les parcours sont proposes en cycle ingenieur et licence professionnelle. Chaque etudiant beneficie d'un accompagnement individualise, d'un stage obligatoire et d'un projet de fin d'etudes en entreprise ou en laboratoire.</p>
+        <div class="mt-6 md:mt-8 grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
+          <div class="p-4 md:p-5 rounded-2xl bg-white shadow-sm">
+            <h4 class="font-semibold text-sm md:text-base">Cycle Licence (3 ans)</h4>
+            <p class="text-xs md:text-sm text-gray-600">Fondamentaux, projets, insertion rapide.</p>
+          </div>
+          <div class="p-4 md:p-5 rounded-2xl bg-white shadow-sm">
+            <h4 class="font-semibold text-sm md:text-base">Cycle Ingenieur (5 ans)</h4>
+            <p class="text-xs md:text-sm text-gray-600">Expertise avancee et leadership.</p>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-3xl p-6 md:p-8 shadow-sm">
+        <h4 class="text-lg md:text-xl font-semibold mb-4 md:mb-6">Points forts</h4>
+        <ul class="space-y-2 md:space-y-3 text-sm md:text-base text-gray-600">
+          <li>� Laboratoires IA, reseaux et cybersecurite.</li>
+          <li>� Encadrement par des experts du secteur.</li>
+          <li>� Projets avec des entreprises locales et internationales.</li>
+          <li>� Certifications professionnelles integrees.</li>
+        </ul>
+        <a href="postuler.html" class="mt-4 md:mt-6 inline-flex items-center gap-2 text-[#003087] font-semibold text-sm md:text-base">Postuler maintenant <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400 py-8 md:py-16">
+    <div class="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
+      <div>
+        <div class="flex items-center gap-3 text-white mb-4 md:mb-6">
+          <div class="w-8 md:w-10 h-8 md:h-10 bg-white text-[#003087] rounded-full flex items-center justify-center font-bold text-sm md:text-base">IAI</div>
+          <span class="text-lg md:text-2xl font-bold">Mbalmayo</span>
+        </div>
+        <p class="text-xs md:text-sm">Centre regional de l'Institut Africain d'Informatique<br>Formations d'excellence depuis 2021</p>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Liens rapides</h4>
+        <ul class="space-y-2 text-xs md:text-sm">
+          <li><a href="formations.html" class="hover:text-white">Formations</a></li>
+          <li><a href="admissions.html" class="hover:text-white">Admissions</a></li>
+          <li><a href="postuler.html" class="hover:text-white">Postuler</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Contact</h4>
+        <p class="text-xs md:text-sm">Mbalmayo, Region du Centre<br>Cameroun</p>
+        <p class="text-xs md:text-sm mt-3 md:mt-4">
+          WhatsApp : <a href="https://wa.me/237694600007" class="text-[#00aaff]">+237 694 600 007</a><br>
+          Email : contact@iaicameroun.com
+        </p>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Suivez-nous</h4>
+        <div class="flex gap-4 md:gap-6 text-lg md:text-2xl">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-xs mt-12 md:mt-16 border-t border-gray-800 pt-6 md:pt-8">
+      � 2026 Institut Africain d'Informatique - Centre de Mbalmayo. Tous droits reserves.
+    </div>
+  </footer>
+
+  <a href="https://wa.me/237694600007" target="_blank" class="fixed bottom-8 right-8 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-all z-50 text-3xl">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

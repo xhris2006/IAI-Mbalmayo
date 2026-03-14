@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Institut Africain d'Informatique - Centre de Mbalmayo (Cameroun). Formations d'excellence en Genie Logiciel, Reseaux, IA, Cybersecurite et Data Science.">
+  <meta name="keywords" content="IAI Mbalmayo, Institut Africain d'Informatique, formation informatique Cameroun, genie logiciel, cybersecurite, IA">
+  <title>IAI Mbalmayo | Institut Africain d'Informatique - Centre de Mbalmayo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- NAVBAR FIXE -->
+  <nav class="bg-white shadow-md fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-4 md:px-6 py-3 md:py-4 flex justify-between items-center">
+      <div class="flex items-center gap-2 md:gap-3">
+        <div class="w-10 md:w-12 h-10 md:h-12 bg-[#003087] rounded-full flex items-center justify-center text-white font-bold text-lg md:text-2xl">IAI</div>
+        <div>
+          <h1 class="text-lg md:text-2xl font-bold text-[#003087]">IAI Mbalmayo</h1>
+          <p class="text-xs text-gray-500 -mt-1">Centre d'Excellence Technologique</p>
+        </div>
+      </div>
+      <div class="hidden md:flex gap-6 md:gap-8 text-sm font-medium">
+        <a href="index.html" class="nav-link text-[#003087]">Accueil</a>
+        <a href="about.html" class="nav-link">A propos</a>
+        <a href="formations.html" class="nav-link">Formations</a>
+        <a href="admissions.html" class="nav-link">Admissions</a>
+        <a href="postuler.html" class="nav-link">Postuler</a>
+        <a href="actualites.html" class="nav-link">Actualites</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+      <a href="postuler.html" class="hidden md:flex bg-[#006400] hover:bg-green-700 text-white px-4 md:px-6 py-2 md:py-3 rounded-full font-semibold items-center gap-2 text-sm md:text-base">
+        <i class="fas fa-paper-plane"></i> Postuler maintenant
+      </a>
+      <button id="mobile-menu-btn" class="md:hidden text-xl md:text-2xl" aria-expanded="false" aria-controls="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-gray-100">
+      <div class="px-4 md:px-6 py-3 md:py-4 space-y-3 text-sm font-medium">
+        <a href="index.html" class="block text-[#003087]">Accueil</a>
+        <a href="about.html" class="block">A propos</a>
+        <a href="formations.html" class="block">Formations</a>
+        <a href="admissions.html" class="block">Admissions</a>
+        <a href="postuler.html" class="block">Postuler</a>
+        <a href="actualites.html" class="block">Actualites</a>
+        <a href="contact.html" class="block">Contact</a>
+        <a href="postuler.html" class="inline-flex items-center justify-center bg-[#006400] text-white px-4 md:px-5 py-2 md:py-3 rounded-full font-semibold text-sm md:text-base">Postuler maintenant</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero-bg min-h-[70vh] md:min-h-screen flex items-center text-white pt-20 md:pt-24">
+    <div class="max-w-7xl mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+      <div class="space-y-6 md:space-y-8">
+        <div class="badge"><i class="fas fa-star"></i> Centre d'excellence numerique</div>
+        <h2 class="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">BIENVENUE A L'<span class="text-[#00aaff]">IAI MBALMAYO</span></h2>
+        <p class="text-base md:text-lg lg:text-xl max-w-lg">Institut Africain d'Informatique - Centre d'Excellence Technologique Paul BIYA. Formez-vous aux metiers du numerique et devenez acteur du developpement de l'Afrique.</p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="formations.html" class="bg-white text-[#003087] px-6 md:px-8 py-4 rounded-full font-semibold hover:bg-gray-100 flex items-center justify-center gap-3">
+            Decouvrir les formations <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="postuler.html" class="border-2 border-white hover:bg-white hover:text-[#003087] px-6 md:px-8 py-4 rounded-full font-semibold text-center">
+            Postuler maintenant
+          </a>
+        </div>
+        <div class="pt-6 md:pt-8 border-t border-white/30">
+          <p class="italic text-base md:text-lg">"L'education est l'arme la plus puissante que l'on puisse utiliser pour changer le monde."</p>
+          <p class="text-sm mt-2">- Nelson Mandela</p>
+        </div>
+      </div>
+      <div class="hidden md:block">
+        <img src="images/iaiproject.jpeg" alt="Etudiant IAI" class="w-full h-auto rounded-3xl shadow-2xl border-8 border-white/30 object-cover">
+      </div>
+    </div>
+  </header>
+
+  <!-- SECTION 3 CARTES -->
+  <section class="py-12 md:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+      <div onclick="window.location.href='formations.html'" class="bg-[#003087] text-white p-6 md:p-10 rounded-3xl card-hover cursor-pointer">
+        <h3 class="text-xl md:text-2xl font-semibold mb-4">NOS FORMATIONS</h3>
+        <p class="opacity-90 text-sm md:text-base">Genie Logiciel, Reseaux & Telecom, IA, Cybersecurite, Data Science</p>
+        <div class="mt-8 md:mt-12 text-4xl md:text-5xl">-></div>
+      </div>
+      <div onclick="window.location.href='actualites.html'" class="bg-orange-500 text-white p-6 md:p-10 rounded-3xl card-hover cursor-pointer">
+        <h3 class="text-xl md:text-2xl font-semibold mb-4">ACTUALITES & EVENEMENTS</h3>
+        <p class="opacity-90 text-sm md:text-base">Concours 2026, ateliers, conferences internationales</p>
+        <div class="mt-8 md:mt-12 text-4xl md:text-5xl">-></div>
+      </div>
+      <div onclick="window.location.href='about.html'" class="bg-teal-500 text-white p-6 md:p-10 rounded-3xl card-hover cursor-pointer">
+        <h3 class="text-xl md:text-2xl font-semibold mb-4">NOTRE CENTRE</h3>
+        <p class="opacity-90 text-sm md:text-base">Mbalmayo - Cameroun. Ouvert depuis 2021. Excellence panafricaine.</p>
+        <div class="mt-8 md:mt-12 text-4xl md:text-5xl">-></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CITATION -->
+  <section class="py-12 md:py-20 bg-gray-50">
+    <div class="max-w-5xl mx-auto px-4 md:px-6 text-center">
+      <h2 class="text-2xl md:text-4xl font-bold text-[#003087] mb-8 md:mb-12 section-title">"L'informatique est l'arme la plus puissante pour le developpement de l'Afrique"</h2>
+      <div class="flex justify-center gap-6 md:gap-8 items-center flex-wrap">
+        <div>
+          <img src="images/iaiconcours.jpg" alt="Directeur" class="w-24 md:w-32 h-24 md:h-32 rounded-2xl mx-auto object-cover border-4 border-white shadow-lg">
+          <p class="mt-4 font-semibold text-sm md:text-base"> Mr EBONA SABADA Jacques Paulin</p>
+          <p class="text-xs md:text-sm text-gray-500">Directeur du Centre IAI Mbalmayo</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALEURS -->
+  <section class="py-12 md:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 md:px-6">
+      <h2 class="text-2xl md:text-4xl font-bold text-center mb-12 md:mb-16 section-title">Nous croyons en votre avenir numerique</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-10">
+        <div class="text-center">
+          <div class="w-16 md:w-20 h-16 md:h-20 mx-auto bg-[#003087] text-white rounded-2xl flex items-center justify-center text-3xl md:text-4xl mb-4 md:mb-6"><i class="fas fa-rocket"></i></div>
+          <h4 class="font-semibold text-lg md:text-xl">Innover</h4>
+          <p class="text-gray-600 mt-2 md:mt-3 text-sm md:text-base">Developper des solutions africaines innovantes</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 md:w-20 h-16 md:h-20 mx-auto bg-[#006400] text-white rounded-2xl flex items-center justify-center text-3xl md:text-4xl mb-4 md:mb-6"><i class="fas fa-globe-africa"></i></div>
+          <h4 class="font-semibold text-lg md:text-xl">Connecter</h4>
+          <p class="text-gray-600 mt-2 md:mt-3 text-sm md:text-base">Former les leaders du continent</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 md:w-20 h-16 md:h-20 mx-auto bg-[#00aaff] text-white rounded-2xl flex items-center justify-center text-3xl md:text-4xl mb-4 md:mb-6"><i class="fas fa-graduation-cap"></i></div>
+          <h4 class="font-semibold text-lg md:text-xl">Exceller</h4>
+          <p class="text-gray-600 mt-2 md:mt-3 text-sm md:text-base">Diplomes reconnus internationalement</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 md:w-20 h-16 md:h-20 mx-auto bg-orange-500 text-white rounded-2xl flex items-center justify-center text-3xl md:text-4xl mb-4 md:mb-6"><i class="fas fa-trophy"></i></div>
+          <h4 class="font-semibold text-lg md:text-xl">Reussir</h4>
+          <p class="text-gray-600 mt-2 md:mt-3 text-sm md:text-base">100% de nos diplomes embauches ou entrepreneurs</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BANNIERE WHATSAPP -->
+  <div class="bg-[#003087] text-white py-8 md:py-12">
+    <div class="max-w-4xl mx-auto px-4 md:px-6 text-center">
+      <div class="flex items-center justify-center gap-3 md:gap-4 mb-4 md:mb-6">
+        <i class="fab fa-whatsapp text-4xl md:text-5xl"></i>
+        <div>
+          <p class="text-lg md:text-2xl lg:text-3xl font-bold">Nos etudiants sont talentueux, passionnes et prets a changer l'Afrique</p>
+        </div>
+      </div>
+      <a href="postuler.html" class="inline-block bg-[#006400] hover:bg-green-700 px-8 md:px-10 py-4 md:py-5 rounded-full text-base md:text-lg lg:text-xl font-semibold">Rejoignez-nous des aujourd'hui</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400 py-8 md:py-16">
+    <div class="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
+      <div>
+        <div class="flex items-center gap-3 text-white mb-4 md:mb-6">
+          <div class="w-8 md:w-10 h-8 md:h-10 bg-white text-[#003087] rounded-full flex items-center justify-center font-bold text-sm md:text-base">IAI</div>
+          <span class="text-lg md:text-2xl font-bold">Mbalmayo</span>
+        </div>
+        <p class="text-xs md:text-sm">Centre regional de l'Institut Africain d'Informatique<br>Formations d'excellence depuis 2021</p>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Liens rapides</h4>
+        <ul class="space-y-2 text-xs md:text-sm">
+          <li><a href="formations.html" class="hover:text-white">Formations</a></li>
+          <li><a href="admissions.html" class="hover:text-white">Admissions</a></li>
+          <li><a href="postuler.html" class="hover:text-white">Postuler</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Contact</h4>
+        <p class="text-xs md:text-sm">Mbalmayo, Region du Centre<br>Cameroun</p>
+        <p class="text-xs md:text-sm mt-3 md:mt-4">
+          WhatsApp : <a href="https://wa.me/237694600007" class="text-[#00aaff]">+237 694 600 007</a><br>
+          Email : contact@iaicameroun.com
+        </p>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Suivez-nous</h4>
+        <div class="flex gap-4 md:gap-6 text-lg md:text-2xl">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-xs mt-12 md:mt-16 border-t border-gray-800 pt-6 md:pt-8">
+      � 2026 Institut Africain d'Informatique - Centre de Mbalmayo. Tous droits reserves.
+    </div>
+  </footer>
+
+  <!-- BOUTON WHATSAPP FLOTTANT -->
+  <a href="https://wa.me/237694600007" target="_blank" class="fixed bottom-8 right-8 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-all z-50 text-3xl">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
