@@ -1,0 +1,6 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="32" fill="#162f48"/>
+  <circle cx="100" cy="80" r="40" fill="#10b981"/>
+  <path d="M68 142c18-24 65-24 83 0" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  <text x="100" y="180" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Fatou</text>
+</svg>

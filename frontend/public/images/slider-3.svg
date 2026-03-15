@@ -1,0 +1,6 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#06111f"/>
+  <rect x="140" y="160" width="920" height="480" rx="32" fill="#0a2142"/>
+  <text x="600" y="400" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="48" font-weight="700">JPO & Parrainage</text>
+  <text x="600" y="460" text-anchor="middle" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="24">Rencontrez notre équipe et explorez le campus</text>
+</svg>

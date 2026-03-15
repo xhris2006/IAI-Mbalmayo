@@ -1,0 +1,7 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="32" fill="#0e2a4a"/>
+  <path d="M60 120h80v20H60z" fill="#1fb6ff"/>
+  <path d="M80 80h40v40H80z" fill="#ffffff"/>
+  <path d="M70 90h60v20H70z" fill="#0e2a4a"/>
+  <text x="100" y="160" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Informatique</text>
+</svg>
